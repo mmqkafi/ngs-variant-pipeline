@@ -26,10 +26,11 @@ FASTQ → Alignment → BAM → Sorting → Deduplication → Indexing → Varia
 
 ## Project Structure
 
-
-.
+```text
+ngs-variant-pipeline/
 ├── data/                # Small synthetic FASTA and FASTQ test data
-├── main.nf              # Main workflow script
+├── main.nf             # Main workflow entry
 ├── modules/             # DSL2 modular processes
-├── nextflow.config      # Configuration file
-└── README.md
+├── nextflow.config      # Pipeline configuration
+└── README.md            # Documentation
+```
